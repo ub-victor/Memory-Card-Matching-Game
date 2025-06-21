@@ -52,3 +52,32 @@ header p {
     font-size: 1.1rem;
     color: var(--dark-color);
 }
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.moves, .timer {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
