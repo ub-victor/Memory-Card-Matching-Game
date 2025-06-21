@@ -169,5 +169,5 @@ header p {
 }
 
 .hidden {
-    display: none;
+    display:block;
 }
