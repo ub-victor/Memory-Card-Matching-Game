@@ -142,3 +142,32 @@ header p {
     background: linear-gradient(45deg, var(--success-color), #55efc4);
     box-shadow: 0 0 10px rgba(0, 184, 148, 0.5);
 }
+
+.win-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 100;
+    max-width: 90%;
+    width: 400px;
+}
+
+.win-message h2 {
+    color: var(--success-color);
+    margin-bottom: 1rem;
+}
+
+.win-message p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.hidden {
+    display: none;
+}
